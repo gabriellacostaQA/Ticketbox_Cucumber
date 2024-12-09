@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.623" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-12-06T14:24:31" tests="0" file="cypress\e2e\testescucumber\cucumber.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2024-12-06T14:24:31" tests="1" time="0.613" failures="1">
+    <testcase name="Login Login com sucesso" time="0.000" classname="Login com sucesso">
+      <failure message="Step implementation missing for: Estou na pagina de login" type="Error"><![CDATA[Error: Step implementation missing for: Estou na pagina de login
+    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)
+    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
